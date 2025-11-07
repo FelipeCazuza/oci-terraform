@@ -15,6 +15,7 @@ Todos os valores contidos neste repositório (OCIDs, IPs, subnets, chaves e regi
 ## 🧱 Estrutura do projeto
 
 oci-terraform/
+
 ├── main.tf # Recursos principais (instâncias OCI)
 ├── variables.tf # Declaração de variáveis
 ├── outputs.tf # Saídas (IPs e metadados)
