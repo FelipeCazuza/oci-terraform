@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+
+# Credenciais / chaves
+*.pem
+*.key
+*.pub
+*.crt
+*.pfx
+*.cer
+*.csr
+*.env
+secrets.*
+id_rsa
+id_rsa.pub
+oci_api_key.pem
+
+# Temporários / sistema / editor
+*.bak
+*.backup
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
