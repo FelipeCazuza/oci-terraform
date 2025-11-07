@@ -11,15 +11,16 @@ O projeto simula um ambiente básico composto por três instâncias — **bastio
 Todos os valores contidos neste repositório (OCIDs, IPs, subnets, chaves e regiões) são **fictícios**, servindo apenas como modelo de referência.
 
 ---
-oci-terraform/
-├── main.tf                    # Recursos principais (instâncias OCI)
-├── variables.tf               # Declaração de variáveis
-├── outputs.tf                 # Saídas (IPs e metadados)
-├── terraform.tfvars.example   # Exemplo de variáveis locais
-├── .gitignore                 # Arquivos ignorados por segurança
+## 🧱 Estrutura de Pastas
+
+├── main.tf → Recursos principais (instâncias OCI)
+├── variables.tf → Declaração de variáveis
+├── outputs.tf → Saídas (IPs e metadados)
+├── terraform.tfvars.example → Exemplo de variáveis locais
+├── .gitignore → Arquivos ignorados por segurança
 └── .github/
-    └── workflows/
-        └── terraform-ci.yml   # CI (fmt / validate)
+└── workflows/
+└── terraform-ci.yml → CI (fmt / validate)
         
 ## ⚙️ Pré-requisitos
 
