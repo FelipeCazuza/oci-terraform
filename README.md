@@ -14,13 +14,14 @@ Todos os valores contidos neste repositório (OCIDs, IPs, subnets, chaves e regi
 
 ## 🧱 Estrutura do projeto
 
-oci-terraform/
-├── main.tf # Recursos principais (instâncias OCI)
-├── variables.tf # Declaração de variáveis
-├── outputs.tf # Saídas (IPs e metadados)
-├── terraform.tfvars.example # Exemplo de variáveis locais
-├── .gitignore # Arquivos ignorados por segurança
-└── .github/workflows/terraform-ci.yml # CI (fmt / validate)
+📦 oci-terraform/
+├── 🧩 main.tf → Recursos principais (instâncias OCI)
+├── ⚙️ variables.tf → Declaração de variáveis
+├── 📤 outputs.tf → Saídas (IPs e metadados)
+├── 🧾 terraform.tfvars.example → Exemplo de variáveis locais
+├── 🚫 .gitignore → Arquivos ignorados por segurança
+└── 🤖 .github/workflows/
+└── terraform-ci.yml → CI (fmt / validate)
 
 ## ⚙️ Pré-requisitos
 
