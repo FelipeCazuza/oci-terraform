@@ -11,9 +11,6 @@ O projeto simula um ambiente básico composto por três instâncias — **bastio
 Todos os valores contidos neste repositório (OCIDs, IPs, subnets, chaves e regiões) são **fictícios**, servindo apenas como modelo de referência.
 
 ---
-
-## Estrutura de Pastas
-
 oci-terraform/
 ├── main.tf                    # Recursos principais (instâncias OCI)
 ├── variables.tf               # Declaração de variáveis
@@ -23,7 +20,6 @@ oci-terraform/
 └── .github/
     └── workflows/
         └── terraform-ci.yml   # CI (fmt / validate)
-
         
 ## ⚙️ Pré-requisitos
 
